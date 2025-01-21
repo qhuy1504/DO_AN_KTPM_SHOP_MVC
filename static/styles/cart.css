@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{ 
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+.container{
+    width: 100%;
+    margin: 0 auto;
+    padding: 15px 120px;
+    min-height: 100vh;
+    
+}
+
+.breadcum {
+    margin: 20px 0;
+    font-size: 14px;
+    color: #000;
+}
+.breadcum a{
+    text-decoration: none;
+    color: #000;
+   
+}
+.breadcum a:hover{
+    color: #f00;
+}
+/* Định dạng bảng chi tiết sản phẩm*/
+.size-table-chi-tiet {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.size-table-chi-tiet th, .size-table-chi-tiet td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    
+    
+}
+ .size-table-chi-tiet td{
+    text-align: center;
+   
+ }
+
+.size-table-chi-tiet th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+    text-align: center;
+}
+
+.size-table-chi-tiet tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.size-table-chi-tiet tr:hover {
+    background-color: #f1f1f1;
+}
+.san-pham img{
+    width: 100px;
+    height: 100px;
+}
+.mau-sac-kich-thuoc span{
+    font-size: 14px;
+    margin-top: 10px;
+    color: #818181;
+    
+}
+.thong-tin-san-pham{
+    margin-left: 40px;
+    align-items: center;
+}
+.quantity-wrapper {
+    display: flex;
+    align-items: center;
+    margin-left: 150px;
+}
+
+.quantity-btn {
+    height: 30px;
+    width: 30px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quantity-btn:hover {
+    background-color: #ddd;
+}
+
+.quantity-btn:active {
+    background-color: #ccc;
+}
+
+input[type="number"] {
+    height: 30px;
+    width: 50px;
+    text-align: center;
+    border: 1px solid #ccc;
+    margin: 0 5px; /* Khoảng cách giữa nút và ô nhập */
+}
+.so-tien-cart{
+    font-size: 16px;
+    font-weight: bold;
+    color: #f00;
+}
+.btn-xoa{
+    text-decoration: none;
+    color: black;
+}
+.btn-xoa:hover{
+    color: red;
+}
+.tong-tien-container{
+    font-size: 15px;
+   justify-content: space-between;
+   align-items: center;
+    
+   
+}
+.giam-gia-san-pham{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+   
+}
+
+ .giam-gia-coupon {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+ .tong-tien-hang {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+ .phi-van-chuyen {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+ .tong-total {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+ .tong-total p{
+    color: #f00;
+ }
+#ho-ten::placeholder {
+    text-indent: 10px;  /* Điều chỉnh khoảng cách lùi qua phải */
+}
+#sdt::placeholder {
+    text-indent: 10px;  /* Điều chỉnh khoảng cách lùi qua phải */
+}
+#dia-chi-nhan-hang::placeholder {
+    text-indent: 10px;  /* Điều chỉnh khoảng cách lùi qua phải */
+    font-size: 14px;
+    padding: 5px;
+}
+.btn-dat-hang{
+    background-color: rgb(255, 102, 0);
+    width: 200px;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 20px;
+    border-radius: 5px;
+    align-items: center;
+    margin-left: auto;
+}
+.btn-dat-hang a{
+    text-decoration: none;
+    color: #fff;
+    margin-left: 50px;
+}
+.btn-dat-hang:hover{
+    background-color: rgb(230, 92, 0);
+}
+
+

@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome CDN -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="/static/styles/chi-tiet-san-pham.css">
+    <title>Chi tiết sản phẩm giày</title>
+</head>
+
+<body>
+    <div class="header">
+        <img src="/static/images/header.png" alt="" srcset="">
+    </div>
+
+    <div class="container">
+
+        <div class="container-san-pham">
+
+            <div class="breadcum">
+                <a href="/index.html">Trang chủ</a>
+                <span class="delimiter">></span>
+                <a href="/dep-nam.html">Dép Nam</a>
+                <span class="delimiter">></span>
+                <span class="present">Giày Nam MWC 5705</span>
+            </div>
+            <br>
+            <div class="san-pham">
+                <div class="hinh-san-pham">
+                    <div class="hinh-main">
+                        <img id="main-image" src="/static/images/giaynam/MWC 5705_3.jpg" alt="">
+                    </div>
+                    <br><br>
+                    <div class="thum-san-pham">
+                        <div class="slide-container-chi-tiet">
+                            <div class="swiper-wrapper-chi-tiet">
+                                <div class="card-small ">
+                                    <div class="image-box-small ">
+                                        <img src="/static/images/giaynam/MWC 5705_1.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="card-small ">
+                                    <div class="image-box-small ">
+                                        <img src="/static/images/giaynam/MWC 5705_2.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="card-small ">
+                                    <div class="image-box-small">
+                                        <img src="/static/images/giaynam/MWC 5705_3.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="card-small ">
+                                    <div class="image-box-small">
+                                        <img src="/static/images/giaynam/MWC 5705_4.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="card-small ">
+                                    <div class="image-box-small">
+                                        <img src="/static/images/giaynam/MWC 5705_5.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="card-small ">
+                                    <div class="image-box-small">
+                                        <img src="/static/images/giaynam/MWC 5705_6.jpg" alt="">
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="thong-tin-san-pham">
+                    <div class="ten-san-pham">
+                        <span class="main-name">Giày Thể Thao Nam MWC 5705 - Giày Thể Thao Nam Dáng Sneaker Cổ Thấp
+                        </span>
+                    </div>
+                    <div class="review-sanpham">
+                        <div class="rate">
+                            <img src="/static/images/danh-gia-sp.png" alt="">
+                        </div>
+                        <div class="so-luong-rate">
+                            <span>12 đánh giá</span>
+                            <span>987 lượt thích</span>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="gia-san-pham">
+
+                        <span style="font-size: 20px; color: red; font-weight: bold; font-size: 30px;"
+                            class="gia-cu">295,000₫</span>
+                        <p class="phi-vat">(Đã bao gồm phí VAT)</p>
+
+                    </div>
+                    <div class="mau-sac-san-pham">
+                        <span class="mau-sac">Màu sắc</span>
+                        <div class="so-mau-sac">
+                            <span style="background-color: #F5F5DC;" class="mau-sac-item selected"
+                                title="Màu Be"></span>
+                            <span style="background-color: black;" class="mau-sac-item" title="Màu đen"></span>
+
+                        </div>
+                    </div>
+                    <div class="kich-thuoc-san-pham">
+                        <span class="kich-thuoc">Kích thước</span>
+                        <div class="so-kich-thuoc">
+                            <span class="selected">37</span>
+                            <span>38</span>
+                            <span>39</span>
+                            <span>40</span>
+                            <span>41</span>
+                            <span>42</span>
+                            <span>43</span>
+                        </div>
+                    </div>
+                    <br><br>
+
+
+                    <div class="huong-dan-chon-size">
+                        <a href="javascript:void(0)" class="chon-size" id="openModal">Hướng dẫn tính size</a>
+                    </div>
+
+                    <!-- Modal hướng dẫn chọn size -->
+                    <div id="modalSizeGuide" class="modal">
+                        <div class="modal-content">
+                            <span class="close" id="closeModal">&times;</span>
+                            <h2>Hướng dẫn tính size</h2>
+                            <br><br>
+                            <div class="huong-dan">
+                                <img src="/static/images/giaynam/tinh-size-1.jpg" alt="Hướng dẫn chọn size" />
+                                <h2>01. Vẽ khung bàn chân</h2>
+                                <p>Đặt bàn chân lên tờ giấy trắng, dùng bút đánh dấu theo khung bàn chân trên giấy</p>
+                                <br><br>
+                                <img src="/static/images/giaynam/tinh-size-2.jpg" alt="Hướng dẫn chọn size" />
+                                <h2>02. Đo chiều dài bàn chân</h2>
+                                <p>Dùng thước đo chiều dài lớn nhất từ mũi chân đến gót chân trên khung bàn chân đã đánh
+                                    dấu</p>
+
+                                <br><br>
+                                <img src="/static/images/giaynam/tinh-size-3.jpg" alt="Hướng dẫn chọn size" />
+                                <h2>03. Đo độ rộng vòng chân</h2>
+                                <p>Lấy thước dây quấn quanh 1 vòng bàn chân từ khớp ngón chân cái đến khớp ngón chân út
+                                </p>
+
+                                <table class="size-table">
+                                    <thead>
+                                        <tr>
+                                            <th>Size</th>
+                                            <th>Độ rộng (cm)</th>
+                                            <th>Độ dài (cm)</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>35</td>
+                                            <td>20.7</td>
+                                            <td>23.1</td>
+                                        </tr>
+                                        <tr>
+                                            <td>36</td>
+                                            <td>21.1</td>
+                                            <td>23.8</td>
+                                        </tr>
+                                        <tr>
+                                            <td>37</td>
+                                            <td>21.6</td>
+                                            <td>24.5</td>
+                                        </tr>
+                                        <tr>
+                                            <td>38</td>
+                                            <td>22.1</td>
+                                            <td>25.2</td>
+                                        </tr>
+                                        <tr>
+                                            <td>39</td>
+                                            <td>22.6</td>
+                                            <td>25.8</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Modal tìm sản phẩm tại Show room-->
+                    <div id="modalSizeGuide1" class="modal1">
+                        <div class="modal-content1">
+                            <span class="close1" id="closeModal1">&times;</span>
+                            <h2>TÌM SẢN PHẨM TẠI SHOWROOM</h2>
+                            <br><br>
+                            <div class="thong-tin-san-pham-da-chon">
+                                <div class="hinh-san-pham-da-chon">
+                                    <img src="/static/images/giaynam/MWC 5705_4.jpg" alt="">
+                                </div>
+
+                                <div class="thong-tin-san-pham-chi-tiet">
+                                    <span class="main-name-da-chon">Giày Thể Thao Nam MWC 5705 - Giày Thể Thao Nam Dáng
+                                        Sneaker Cổ Thấp
+                                    </span>
+                                    <span class="gia-san-pham-da-chon">295,000₫</span>
+                                    <br>
+                                    <div class="mau-sac-san-pham-chi-tiet">
+
+                                        <div class="so-mau-sac" style="margin-left: 50px;">
+                                            <span style="background-color: #F5F5DC;" class="mau-sac-item selected"
+                                                title="Màu Be"></span>
+                                            <span style="background-color: black;" class="mau-sac-item"
+                                                title="Màu đen"></span>
+
+                                        </div>
+                                    </div>
+                                    <br>
+                                    <div class="kich-thuoc-san-pham-chi-tiet">
+
+                                        <div class="so-kich-thuoc">
+                                            <span class="selected">37</span>
+                                            <span>38</span>
+                                            <span>39</span>
+                                            <span>40</span>
+                                            <span>41</span>
+                                            <span>42</span>
+                                            <span>43</span>
+                                        </div>
+                                    </div>
+                                    <br>
+
+
+
+
+
+                                </div>
+
+                            </div>
+                            <br>
+                            <div class="form-group">
+                                <label for="province">Tỉnh/Thành phố:</label>
+                                <select id="province" name="province" onchange="loadDistricts()">
+                                    <option value="" selected disabled>Chọn tỉnh/thành phố</option>
+                                    <option value="hanoi">Hà Nội</option>
+                                    <option value="hcm">Hồ Chí Minh</option>
+                                    <option value="danang">Đà Nẵng</option>
+                                    <!-- Thêm các tỉnh khác -->
+                                </select>
+
+                                <label for="district">Quận/Huyện:</label>
+                                <select id="district" name="district" disabled>
+                                    <option value="" selected disabled>Chọn quận/huyện</option>
+                                </select>
+                            </div>
+                            <div class="thoi-gian-hoat-dong">
+                                <span>Thời gian hoạt động</span>
+                                <span>- Từ thứ 2 đến thứ 6 : 8h30 - 22h</span>
+                                <span>- Thứ 7, chủ nhật : 8h- 22h30</span>
+                            </div>
+                            <br>
+                            <div class="dia-chi-cua-hang">
+                                <div class="dia-chi-item">
+                                    <span class="dia-chi">123 Lê Lợi, Quận 1, TP.Hồ Chí Minh</span>
+                                    <div class="tinh-trang-cua-hang">
+                                        <span class="tinh-trang">Tình trạng: </span>
+                                        <span class="ket-qua-tinh-trang-con-hang">Còn hàng</span>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="dia-chi-item">
+                                    <span class="dia-chi">456 Lê Duẩn, Quận Hai Bà Trưng, Hà Nội</span>
+                                    <div class="tinh-trang-cua-hang">
+                                        <span class="tinh-trang">Tình trạng: </span>
+                                        <span class="ket-qua-tinh-trang-con-hang">Còn hàng</span>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="dia-chi-item">
+                                    <span class="dia-chi">789 Nguyễn Văn Linh, Quận Liên Chiểu, Đà Nẵng</span>
+                                    <div class="tinh-trang-cua-hang">
+                                        <span class="tinh-trang">Tình trạng: </span>
+                                        <span class="ket-qua-tinh-trang-het-hang">Sắp hết hàng</span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <br><br>
+                    <div class="btn-tim-san-pham-show-room">
+                        <a href="javascript:void(0)" class="btn-tim-san-pham" id="openModal1">
+                            <i class="fa-solid fa-location-dot"> </i>
+
+                            TÌM SẢN PHẨM TẠI SHOWROOM </a>
+
+                    </div>
+
+
+                    <br><br>
+                    <div class="mua">
+                        <div class="btn-mua-ngay">
+                            <a href="./cart.html">MUA NGAY</a>
+                        </div>
+                        <div class="btn-them-vao-gio-hang">
+
+
+                            <a href="javascript:void(0)" id="addToCartBtn">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                THÊM VÀO GIỎ HÀNG</a>
+                        </div>
+
+
+                    </div>
+                    <!-- Modal giỏ hàng -->
+                    <div id="modalSizeGuide2" class="modal2">
+                        <div class="modal-content2">
+                            <span class="close2" id="closeModal2">&times;</span>
+                            <br><br>
+                            <h2>Giỏ hàng</h2>
+                            <br>
+                            <div class="product-info">
+                                <div class="img-chi-tiet">
+                                    <img src="/static/images/giaynam/MWC 5705_3.jpg" alt="Product Image">
+                                </div>
+                                <div class="details">
+                                    <span>Giày Thể Thao Nam MWC 5705 - Giày Thể Thao Nam Dáng Sneaker Cổ Thấp</span>
+                                    <p>Kích cỡ: 38</p>
+                                    <p>Màu sắc: Be</p>
+                                    <p>Giá: 500,000 VNĐ</p>
+
+                                </div>
+                            </div>
+                            <div class="so-luong-sp-gio-hang">
+                                <label for="quantity">Số lượng:</label>
+                                <input style="height: 30px; width: 50px; margin-left: 20px;" type="number" id="quantity"
+                                    name="quantity" value="1" min="1">
+                            </div>
+                            <div class="total">
+                                <hr><br>
+                                <p><strong>Tổng cộng: 500,000 VNĐ</strong></p>
+                            </div>
+                            <br><br>
+                            <a href="./cart.html" class="btn-add-to-cart">Xem giỏ hàng</a>
+                        </div>
+                    </div>
+
+                    <br><br><br>
+                    <div class="loi-ich-mua-hang">
+                        <div class="loi-ich-1">
+                            <img src="/static/images/loi-ich-1.jpg" alt="">
+                            <span>Bảo hành keo vĩnh viễn, trọn đời</span>
+                        </div>
+                        <div class="loi-ich-1">
+                            <img src="/static/images/loi-ich-2.jpg" alt="">
+                            <span>Miễn phí vận chuyển toàn quốc
+                                cho đơn hàng từ 150k</span>
+                        </div>
+                        <div class="loi-ich-1">
+                            <img src="/static/images/loi-ich-3.jpg" alt="">
+                            <span>Đổi trả dễ dàng
+                                (trong vòng 7 ngày nếu lỗi nhà sản xuất)</span>
+                        </div>
+
+                    </div>
+                    <br>
+                    <div class="loi-ich-mua-hang">
+                        <div class="loi-ich-1">
+                            <img src="/static/images/loi-ich-4.jpg" alt="">
+                            <span>Hotline 1900.633.349
+                                hỗ trợ từ 8h30-21h30</span>
+                        </div>
+                        <div class="loi-ich-1">
+                            <img src="/static/images/loi-ich-5.jpg" alt="">
+                            <span>Giao hàng tận nơi,
+                                nhận hàng xong thanh toán</span>
+                        </div>
+                        <div class="loi-ich-1">
+                            <img src="/static/images/loi-ich-6.jpg" alt="">
+                            <span>Ưu đãi tích điểm và
+                                hưởng quyền lợi thành viên từ MWC</span>
+                        </div>
+
+                    </div>
+
+
+
+
+                </div>
+
+            </div>
+            <br><br>
+            <div class="chi-tiet-san-pham">
+                <table class="size-table-chi-tiet">
+                    <thead>
+                        <tr>
+                            <th>CHI TIẾT SẢN PHẨM</th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <div class="mo-ta">
+                                    <h4>MÔ TẢ SẢN PHẨM: Dép Nam MWC 7860 - Dép Da Nam Cao Cấp, Dép Nam Quai Ngang Chữ H
+                                        Thời Trang, Cá Tính Năng Động, Trẻ
+                                        Trung.</h4>
+
+                                    <ul>
+                                        <li>Dép nam thiết kế kiểu dáng quai ngang chữ H cá tính, thời trang, dép được
+                                            làm bằng chất liệu da tổng hợp cao cấp nên có
+                                            độ bền cao.</li>
+                                        <li>Dép có trọng lượng nhẹ, tạo sự thoải mái cho đôi chân hơn nữa nó còn mang
+                                            đến những gam màu hiện đại, trẻ trung dễ dàng
+                                            phối với nhiều trang phục khác nhau từ âu tới jeans hay sooc,... đều rất hợp
+                                            thời trang.</li>
+                                        <li>Dép nam quai ngang chữ H thực sự là lựa chọn lý tưởng cho phong cách năng
+                                            động, trẻ trung, tràn đầy sức sống, dép phù
+                                            hợp mang đi chơi, đi phố, đi trong nhà, văn phòng,...</li>
+                                    </ul>
+
+                                    <h4>CHI TIẾT SẢN PHẨM</h4>
+                                    <ul>
+                                        <li>Chiều cao: Khoảng 2cm</li>
+                                        <li>Kiểu dáng: Dép nam đế bằng, dép da nam cao cấp</li>
+                                        <li>Chất liệu: Da tổng hợp cao cấp</li>
+                                        <li>Đế: PU xẻ rãnh chống trơn trượt</li>
+                                        <li>Màu sắc: Xám - Đen - Nâu - Full đen</li>
+                                        <li>Size: 39 - 40- 41 - 42 - 43</li>
+                                        <li>Xuất xứ: Việt Nam</li>
+                                        <li><strong>Chú ý:</strong> Kích thước so sánh một cách cẩn thận, vui lòng cho
+                                            phép sai số 1-3 cm do đo lường thủ công.</li>
+                                        <li>Do màn hình hiển thị khác nhau và ánh sáng khác nhau, hình ảnh có thể chênh
+                                            lệch 5->10% màu sắc thật của sản phẩm.</li>
+                                        <li>Cảm ơn bạn đã thông cảm.</li>
+                                    </ul>
+
+                                </div>
+
+
+
+
+
+                            </td>
+
+                        </tr>
+
+                    </tbody>
+                </table>
+                <div class="co-the-ban-cung-thich">
+                    <h4>CÓ THỂ BẠN CŨNG THÍCH</h4>
+                    <div class="co-the-ban-cung-thich-item">
+                        <div class="card">
+                            <div class="image-box">
+                                <img src="/static/images/giaynam/MWC 5705_1.jpg" alt="">
+                            </div>
+                            <div class="thong-tin-san-pham-xem-them">
+                                <span class="ten-san-pham">Giày Thể Thao Nam MWC 5705</span>
+                                <span class="gia-san-pham">295,000₫</span>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="image-box">
+                                <img src="/static/images/giaynam/MWC 5705_2.jpg" alt="">
+                            </div>
+                            <div class="thong-tin-san-pham-xem-them">
+                                <span class="ten-san-pham">Giày Thể Thao Nam MWC 5705</span>
+                                <span class="gia-san-pham">295,000₫</span>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="image-box">
+                                <img src="/static/images/giaynam/MWC 5705_3.jpg" alt="">
+                            </div>
+                            <div class="thong-tin-san-pham-xem-them">
+                                <span class="ten-san-pham">Giày Thể Thao Nam MWC 5705</span>
+                                <span class="gia-san-pham">295,000₫</span>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="image-box">
+                                <img src="/static/images/giaynam/MWC 5705_4.jpg" alt="">
+                            </div>
+                            <div class="thong-tin-san-pham-xem-them">
+                                <span class="ten-san-pham">Giày Thể Thao Nam MWC 5705</span>
+                                <span class="gia-san-pham">295,000₫</span>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <hr><br>
+                    <div class="thong-tin-lien-he">
+
+                        <div class="thong-tin-lien-he-item">
+                            <p class="thong-tin-lien-he-item-1">GỌI MUA HÀNG ONLINE (08:00 - 21: 00 mỗi ngày)</p>
+                            <p class="thong-tin-lien-he-item-2">1900.633.349</p>
+                            <p class="thong-tin-lien-he-item-3">Tất cả các ngày trong tuần (Trừ tết Âm Lịch)</p>
+                            <br>
+                            <p class="thong-tin-lien-he-item-1">GÓP Ý & KHIẾU NẠI (08:30 - 20:30)</p>
+                            <p class="thong-tin-lien-he-item-2">1900.633.349</p>
+                            <p class="thong-tin-lien-he-item-3">Tất cả các ngày trong tuần (Trừ tết Âm Lịch)</p>
+                        </div>
+
+                        <div class="thong-tin-lien-he-item-tt">
+                            <p class="thong-tin-lien-he-item-1">THÔNG TIN</p>
+                            <ul>
+                                <li><a href=""></a>Giới thiệu về MWC</li>
+                                <li><a href=""></a>Thông tin Website thương mại điện tử</li>
+                                <li><a href=""></a>Than Phiền Góp Ý</li>
+                                <li><a href=""></a>Chính sách và quy định</li>
+                            </ul>
+                        </div>
+
+                        <div class="thong-tin-lien-he-item-faq">
+                            <p class="thong-tin-lien-he-item-1">FAQ</p>
+                            <ul>
+                                <li><a href=""></a>Vận chuyển</li>
+                                <li><a href=""></a>Chính sách đổi trả</li>
+                                <li><a href=""></a>Chính sách đổi trả bảo hành</li>
+                                <div class="logo-truyen-thong">
+                                    <img style="margin-left: -15px; margin-top: 10px; height: 45px;"
+                                        src="/static/images/logo-truyen-thong.png" alt="">
+
+                            </ul>
+                        </div>
+                    </div>
+
+
+
+
+
+
+                </div>
+            </div>
+
+            <div class="footer">
+                <img src="/static/images/footer.png" alt="" srcset="">
+            </div>
+
+            <script>
+                // Lấy tất cả các hình ảnh trong .image-box-small
+                const thumbnails = document.querySelectorAll('.image-box-small img');
+                const mainImage = document.getElementById('main-image');
+
+                // Thêm sự kiện khi bấm vào từng hình ảnh nhỏ
+                thumbnails.forEach((thumbnail) => {
+                    thumbnail.addEventListener('click', function () {
+                        // Đổi hình ảnh lớn thành hình ảnh nhỏ vừa bấm vào
+                        mainImage.src = this.src;
+                    });
+                });
+            </script>
+
+
+
+
+
+            <!-- Tải jQuery -->
+            <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+            <!-- Tải thư viện Slick -->
+            <link rel="stylesheet" type="text/css"
+                href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+            <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+
+            <!-- Tải file chi-tiet-san-pham.js -->
+            <script src="/static/scripts/chi-tiet-san-pham.js"></script>
+            <script src="/static/scripts/modal-chon-size.js"></script>
+
+</body>
+
+</html>
